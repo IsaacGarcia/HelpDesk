@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelpDesk.Web", "HelpDesk.Web\HelpDesk.Web.csproj", "{2B57B8AB-47A9-4697-8242-CA77551CE5FA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelpDesk.Domain", "HelpDesk.Domain\HelpDesk.Domain.csproj", "{10AED4DE-CD6B-4102-BA17-83AA23E69FD6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelpDesk.Test", "HelpDesk.Test\HelpDesk.Test.csproj", "{D54FD986-714A-459D-8F03-E03386998FDE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2B57B8AB-47A9-4697-8242-CA77551CE5FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B57B8AB-47A9-4697-8242-CA77551CE5FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B57B8AB-47A9-4697-8242-CA77551CE5FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B57B8AB-47A9-4697-8242-CA77551CE5FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10AED4DE-CD6B-4102-BA17-83AA23E69FD6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10AED4DE-CD6B-4102-BA17-83AA23E69FD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10AED4DE-CD6B-4102-BA17-83AA23E69FD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10AED4DE-CD6B-4102-BA17-83AA23E69FD6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D54FD986-714A-459D-8F03-E03386998FDE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D54FD986-714A-459D-8F03-E03386998FDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D54FD986-714A-459D-8F03-E03386998FDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D54FD986-714A-459D-8F03-E03386998FDE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
