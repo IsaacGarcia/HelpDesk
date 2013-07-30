@@ -5,7 +5,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelpDesk.Web", "HelpDesk.We
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelpDesk.Domain", "HelpDesk.Domain\HelpDesk.Domain.csproj", "{10AED4DE-CD6B-4102-BA17-83AA23E69FD6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelpDesk.Test", "HelpDesk.Test\HelpDesk.Test.csproj", "{D54FD986-714A-459D-8F03-E03386998FDE}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{606F6782-C733-4DE4-B51A-C78AB9B712B7}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,10 +26,6 @@ Global
 		{10AED4DE-CD6B-4102-BA17-83AA23E69FD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{10AED4DE-CD6B-4102-BA17-83AA23E69FD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{10AED4DE-CD6B-4102-BA17-83AA23E69FD6}.Release|Any CPU.Build.0 = Release|Any CPU
-		{D54FD986-714A-459D-8F03-E03386998FDE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D54FD986-714A-459D-8F03-E03386998FDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D54FD986-714A-459D-8F03-E03386998FDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D54FD986-714A-459D-8F03-E03386998FDE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

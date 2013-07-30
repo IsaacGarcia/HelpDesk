@@ -39,13 +39,22 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Entities\Chamado\Chamado.cs" />
-    <Compile Include="Entities\Produto\Produto.cs" />
+    <Compile Include="Entities\IssueComponent\Attachment.cs" />
+    <Compile Include="Entities\IssueComponent\Comments.cs" />
+    <Compile Include="Entities\IssueComponent\CriticityLevel.cs" />
+    <Compile Include="Entities\IssueComponent\Issue.cs" />
+    <Compile Include="Entities\IssueComponent\Level.cs" />
+    <Compile Include="Entities\IssueComponent\Status.cs" />
+    <Compile Include="Entities\UserComponent\Department.cs" />
+    <Compile Include="Entities\UserComponent\Hospital.cs" />
+    <Compile Include="Entities\UserComponent\Profile.cs" />
+    <Compile Include="Entities\UserComponent\Tenant.cs" />
+    <Compile Include="Entities\UserComponent\User.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Repository\Chamados.cs" />
-    <Compile Include="Entities\Produto\SLA.cs" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="Repository\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
