@@ -28,12 +28,16 @@
                     <li class="active"><a href="#">Home</a></li>
                     <li><a href="#about">About</a></li>
                     <li><a href="#contact">Contact</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Olá Fulano <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Log Out</a></li>
+                            <li><a href="#">Change Password</a></li>
+                            <li class="divider"></li>
+                            <li><a href="#">Configurations</a></li>
+                        </ul>
+                    </li>
                 </ul>
-                <form class="navbar-form form-inline pull-right" method="post" action="Home/Logar">
-                    <input type="text" placeholder="Email">
-                    <input type="password" placeholder="Password">
-                    <button type="submit" class="btn">Sign in</button>
-                </form>
             </div>
             <!--/.nav-collapse -->
         </div>
@@ -41,20 +45,15 @@
 
     <div class="container">
 
-        <!-- Main jumbotron for a primary marketing message or call to action -->
         <div class="jumbotron">
             <h1>Hello, world!</h1>
             <p>This is a template for a simple marketing or informational website. It includes a large callout called the hero unit and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
             <p><a class="btn btn-primary btn-large">Learn more &raquo;</a></p>
         </div>
-
         <div class="body-content">
 
-            <!-- Example row of columns -->
-            <div class="row">
                 @RenderBody()
-            </div>
-
+ 
             <hr>
 
             <footer>
